@@ -29,6 +29,8 @@ yum install jenkins -y
 
 systemctl restart jenkins;systemctl enable jenkins;systemctl status jenkins
 
+go to vpc network-->create new firewall rule --> allow all traffic --targets(allow all instances)--->source ip address(0.0.0.0/0)--> Directions on traffic ---ingress
+
 The following plugins needs to be installed
 
 dashboard view
